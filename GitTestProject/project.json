@@ -1,0 +1,26 @@
+{
+  "name": "GitTestProject",
+  "description": "my private git repo",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.UIAutomation.Activities": "[18.3.6876.27938]",
+    "UiPath.System.Activities": "[18.3.6876.27935]",
+    "UiPath.Excel.Activities": "[2.4.0.0]",
+    "UiPath.Mail.Activities": "[1.2.0.0]"
+  },
+  "schemaVersion": "3.2",
+  "studioVersion": "19.3.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ]
+  },
+  "projectType": "Workflow",
+  "libraryOptions": {
+    "includeOriginalXaml": false,
+    "privateWorkflows": []
+  }
+}
